@@ -7,10 +7,11 @@
     <link href="../../css/app.css" rel="stylesheet">
     <title>Alterar Produto</title>
 </head>
-<body>
+
+<body class="bg-light">
 
 <div class="container">
-    <h1 class="mt-2">Alterar produto</h1>
+    <h1 class="mt-2">Alterar Produto</h1>
     <form action="/produtos/alterar" method="post" class="mt-2">
         <input type="hidden" name="_token" value="{{{ csrf_token() }}}">
         <div class="form-group">

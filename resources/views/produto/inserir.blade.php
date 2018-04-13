@@ -7,10 +7,11 @@
     <link href="../../css/app.css" rel="stylesheet">
     <title>Inserir produto</title>
 </head>
-<body>
+<body class="bg-light">
+@include('layouts.cabecalho')
 <div class="container">
 
-    <h1 class="mt-2">Inserir Produto</h1>
+    <h1 class="mt-2">Cadastrar Novo Produto</h1>
     @if(!empty($mensagem))
         <div class="alert alert-success">Produto inserido com sucesso!</div>
     @endif

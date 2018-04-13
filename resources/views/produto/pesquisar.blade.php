@@ -7,7 +7,8 @@
     <link href="../../css/app.css" rel="stylesheet">
     <title>Pesquisar Produtos</title>
 </head>
-<body>
+<body class="bg-light">
+@include('layouts.cabecalho')
     <div class="container">
         <h1 class="mt-2">Pesquisar Produtos</h1>
 
@@ -54,3 +55,4 @@
     </div>
 </body>
 </html>
+
